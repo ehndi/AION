@@ -1,0 +1,214 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+/* Navbar Styles */
+.navbar {
+    position: sticky;
+    top: 10px; /* Sticky 10px from the top */
+    margin: 0 auto;
+    background-color: #222;
+    border-radius: 12px; /* Rounded corners */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%; /* Slightly smaller width for a centered look */
+    z-index: 1000; /* Ensures it stays above other content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: lightblue;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem; /* Padding for clickable area */
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px; /* Rounded edges for links */
+}
+
+.nav-links a:hover {
+    background-color: lightblue;
+    color: #222;
+    transform: scale(1.05); /* Subtle scaling effect */
+}
+
+.btn-buy {
+    background-color: lightblue;
+    color: #222;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-buy:hover {
+    background-color: lightblue;
+    transform: scale(1.1); /* Slight hover effect */
+}
+
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: lightblue;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: lightblue;
+}
+
+.btn-buy {
+    background-color: lightblue;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #222;
+    font-weight: bold;
+}
+
+/* Sections */
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.gif-container img {
+    max-width: 3500px;
+    margin-top: 3.5rem;
+    border-radius: 10px;
+}
+
+/* Tokenomics List */
+#tokenomics ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+#tokenomics li {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+/* Social Links */
+.social-links a {
+    margin: 0 1rem;
+    color: lightblue;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #222;
+}
+
+/* Buy Button */
+.buy-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: lightblue;
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: lightblue;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: #fff;
+}
+
+.gif-container1 {
+    padding-left: 750px;
+}
+body {
+    background: lightblue; /* Yellow Comic Background */
+    background-image: repeating-linear-gradient(
+        45deg, 
+        rgba(255, 255, 255, 0.2) 0px, 
+        rgba(255, 255, 255, 0.2) 5px, 
+        transparent 5px, 
+        transparent 10px
+    );
+    background-attachment: fixed;
+    color: #222;
+}
+
+.gif-container2{
+    padding-left: 725px;
+}
+
+.gif-container3 {
+    padding-left: 750px;
+}
+
+.gif-container4 {
+    padding-left: 840px;
+}
+
+.yz {
+    padding-top: 25px;
+}
+
+.yt {
+    padding-left:800px;
+}
